@@ -88,6 +88,9 @@ class Stack {
     this.size = data.size
     return this
   }
+  getData() {
+    return this.__data__
+  }
 }
 
 export default Stack

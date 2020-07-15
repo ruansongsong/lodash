@@ -29,6 +29,7 @@ const CLONE_SYMBOLS_FLAG = 4
  * // => true
  */
 function clone(value) {
+  // 调用基础 baseClone
   return baseClone(value, CLONE_SYMBOLS_FLAG)
 }
 
